@@ -1,16 +1,27 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Software Engineer 
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Gyucheon Heo. I go by **Jake**. I see myself as an inspiring Software Engineer and Developer.
+My research and interesting lie at the software stacks of Web Service, however all applications, to ensure high availability and fault-tolerance. More specifically, the main question around my life is "Are current software stacks enough to handle later greater/larger dataset being requested and being responsed?". On top of that, I am also interested in Test-Driven Development, the methodologies of software tests. In general, I have affinity toward everything curious.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### Education
 
-What else do you need?
+2019-2021(expected)
+: **Master of Science, Computer Science**; Illinois Institute of Technology, Chicago, IL
 
-### my history
+2016-2019
+: **Bachelor of Science, Computer Science**; Illinois Institute of Technology, Chicago, IL
+: Cum Laude
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### Experience
+May - Aug, 2020
+: **Software Engineer Intern**; Ascension Technology, St Louis, MO
+May - Aug, 2019
+: **[Graduate Research Assistant](https://www.halek.co/authors/gyucheon-heo/)**; HExSA Lab, Chicago, IL
+Jan - May, 2018
+: **Undergraduate Teaching Assitant**; Illinois Institute of Technology, Chicago, IL
+
+
