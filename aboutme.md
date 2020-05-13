@@ -17,10 +17,13 @@ My research and interesting lie at the software stacks of Web Service, however a
 : Cum Laude
 
 ### Experience
+
 May - Aug, 2020
 : **Software Engineer Intern**; Ascension Technology, St Louis, MO
+
 May - Aug, 2019
 : **[Graduate Research Assistant](https://www.halek.co/authors/gyucheon-heo/)**; HExSA Lab, Chicago, IL
+
 Jan - May, 2018
 : **Undergraduate Teaching Assitant**; Illinois Institute of Technology, Chicago, IL
 
