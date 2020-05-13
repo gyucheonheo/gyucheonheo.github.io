@@ -28,6 +28,7 @@ round-avatar: true
 # then specify the following parameter
 #title-img: /path/to/image
 
+cover-img: "/assets/img/profile.png"
 
 # --- Footer options --- #
 
