@@ -24,7 +24,7 @@ MySQL, PostgreSQL, MongoDB, Apache Cassandra, Apache CouchDB, Redis
 2019-2021(expected)
 : **Master of Science, Computer Science**; Illinois Institute of Technology, Chicago, IL
 
-2016-2019
+2017-2019
 : **Bachelor of Science, Computer Science**; Illinois Institute of Technology, Chicago, IL
 : 🥉 Cum Laude 🥉
 
