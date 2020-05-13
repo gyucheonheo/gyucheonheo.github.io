@@ -14,7 +14,7 @@ My research and interesting lie at the software stacks of Web Service, however a
 
 2016-2019
 : **Bachelor of Science, Computer Science**; Illinois Institute of Technology, Chicago, IL
-: Cum Laude
+: 🥉 Cum Laude 🥉
 
 ### Experience
 
