@@ -6,6 +6,7 @@ subtitle: Projects
 **Share a Ride**; Java backend for a web application
 
 **The Parking Admission System at Park**; Java(Jersey RESTful Web Service) backend for a web application [[github]](https://github.com/gyucheonheo/parkpay-docker-compose), [[detail]]()
+* Won the Best Project with respect to clean code, SOLID principles, and OOP🏅
 * Implemented many APIs and unit test cases
 * Designed by SOLID principles and Object-Oriented Programming manner
 * Expanded it by implementing the front-end in ReactJS and Deployed Docker containers in Public Cloud
