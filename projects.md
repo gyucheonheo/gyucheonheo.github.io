@@ -22,7 +22,7 @@ subtitle: Projects
 * Implemented a test parser for ftrace log files using regular expression in Python [[link]](https://github.com/gyucheonheo/iotracer)
 * Data Visualization with data from the above parser to analyze hot-spots on CPU time.
 
-**Whober**; smartcar x .dev Hackathon @ Northwestern University - 2nd Place
+**Whober**; smartcar x .dev Hackathon @ Northwestern University - 2nd Place 🥈
 * Implemented a web application which lets users to request to a server to drop off their car to designated destination using ReactJS, NodeJS, MySQL and external apis from smartcar
 * Through the application, the end-user is able to lock/unlock the car remotely, sets the certain amount of budget to the destination based on the google map distance calcuation, monitor and rate the driver.
 
