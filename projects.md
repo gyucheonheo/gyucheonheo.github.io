@@ -16,7 +16,7 @@ subtitle: Projects
 * Implemented Decentralized/Centralized Peer-to-Peer File System and Benchmarked throughputs and latencies against 1,2,4,8,10 nodes.
 * Implemented Disk Storage Benchmarking by mimicking IOZone and compared it to IOZone against 1,2,4,8,12,24 threads.[[link]](https://github.com/gyucheonheo/hawkdisk) [[detail]]()
 * Implemented External Sort and compared it to Linux Sort. [[link]](https://github.com/gyucheonheo/hawksort)
-* Configured/Managed Virtual Machines with libvirt, qemu, kvm in private cloud service([ChameleonCloud](https://www.chameleoncloud.org))
+* Configured/Managed Virtual Machines Clusters with libvirt, qemu, kvm in private cloud service([ChameleonCloud](https://www.chameleoncloud.org))
 
 **Quantification the overheads for Fat Linux System on I/O operations**; As a research-purpose application, the application helps to profile the overhead of Linux Kernel I/O abstractions [[detail]]()
 * Implemented a test parser for ftrace log files using regular expression in Python [[link]](https://github.com/gyucheonheo/iotracer)
