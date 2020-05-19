@@ -2,9 +2,7 @@
 layout: post
 title: If..Else..Switch..Polyporphism?
 subtitle: What is good about it?
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [clean code]
+tags: [clean code, OOP, Polymorphism]
 comments: true
 ---
 
