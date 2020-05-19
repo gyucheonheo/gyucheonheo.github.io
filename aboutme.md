@@ -9,7 +9,7 @@ My research and interesting lie at the software stacks of Web Service, however a
 
 ### 💪 Skills
 
-#### </>Programming Languages
+#### </> Programming Languages
 C, Java(8 to later), Python3, Javascript, Haskell, SQL
 
 #### 🛠 DevOps Tools
@@ -18,6 +18,8 @@ Jenkins, Docker, Git, Apache Maven, Github actions, libvirt, QEMU
 #### 📚 Databases
 MySQL, PostgreSQL, MongoDB, Apache Cassandra, Apache CouchDB, Redis
 
+#### 🧪 Test 
+Junit, Jmeter, Selenium, Postman, Newman
 
 ### 🎓 Education
 
