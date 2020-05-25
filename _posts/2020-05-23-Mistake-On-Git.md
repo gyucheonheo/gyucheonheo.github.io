@@ -20,9 +20,9 @@ I hope that you want to do the latter. Here are steps you need to follow to do s
 ```
 
 {: .box-warning}
-**Warning:** This is a warning box.
+**Warning:** This commint will create a new commit number.
 
-### Scenario 1.1; Made commit to a wrong branch? No Problem!
+### Scenario 2; Made commit to a wrong branch? No Problem!
 Imagine that you made a below commit to `master` branch. However, you figured out that this commit was supposed to belong to `foo` branch.
 
 ``` bash
@@ -56,6 +56,13 @@ Okay. Here we go. `foo` branch, now, has that commit.
 
 But! we should fix our `master` branch as well.
 
-### Scenario 2
+``` bash
+(foo)[you@machine]$>git checkout master
+```
 
-### Scenario 3
+``` bash
+(master)[you@machine]$>git reset --<soft or mix or hard> <the commit number>
+```
+* `soft` : `soft` will reset the commit, but changes will remain in working stage.
+* `mix`  : `mix` is the default. `mix` will reset the commit, but changes will remain in working directory.
+* `hard` : `hard` will reset the commit, but changes will NOT remain anywhere.
