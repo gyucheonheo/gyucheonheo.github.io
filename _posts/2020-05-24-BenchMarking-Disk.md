@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hawkdisk: benchmarking disk
-subtitle: By mimicking some features from IOZone 
-tags: [git]
+title: Hawkdisk
+subtitle: By mimicking IOZone
+tags: [benchmark, project,]
 comments: true
 ---
