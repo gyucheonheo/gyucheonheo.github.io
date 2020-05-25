@@ -10,7 +10,51 @@ Everytime I learn about `git`, I frequently was likely to focus on adding/updati
 
 It is NOW time for us to learn smart ways to revert it!
 
-### Scenario 1
+### Scenario 1; Wrong Commit Message? No Problem!
+It it really common that you forget adding more files or put a bad message to a commit that you just made. 
+What would you do in this case? Are you going to leave it as it is or do you want to fix that?
+I hope that you want to do the latter. Here are steps you need to follow to do so.
+
+``` bash
+(master)[you@machine]$>git commit --amend -m "<new message>"
+```
+
+{: .box-warning}
+**Warning:** This is a warning box.
+
+### Scenario 1.1; Made commit to a wrong branch? No Problem!
+Imagine that you made a below commit to `master` branch. However, you figured out that this commit was supposed to belong to `foo` branch.
+
+``` bash
+(master)[you@machine]$>git add test.c
+(master)[you@machine]$>git commit -m "Completed new foo feature"
+```
+Ouch! you noticed the branch name is `master` instead of `foo`. Don't worry. It will cover.
+
+``` bash
+(master)[you@machine]$>git branch
+```
+The above command will show you two branches; `master` and `foo`. Okay. `foo` is our final destination. In addition, we need a commit number that we want move to `foo`. 
+
+``` bash
+(master)[you@machine]$>git log
+```
+
+The above command will show you a bunch of commit log and copy/paste the commit number.
+
+``` bash
+(master)[you@machine]$>git checkout foo
+```
+
+It enables you to switch your current branch to `foo`.
+
+``` bash
+(foo)[you@machine]$>git cherry-pick <the commit number>
+```
+
+Okay. Here we go. `foo` branch, now, has that commit.
+
+But! we should fix our `master` branch as well.
 
 ### Scenario 2
 
