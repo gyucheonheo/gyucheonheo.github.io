@@ -41,4 +41,10 @@ Junit, Jmeter, Selenium, Postman, Newman
 Jan - May, 2018
 : **Undergraduate Teaching Assitant**; Illinois Institute of Technology, Chicago, IL
 
+### 🏆 Award/Certificates
+
+2019 Smartcar and .dev Hackathon at Northwestern University 2nd Place 🥈
+
+2018 The Best Project Award of Object Oriented Design and Programming (Sponsored by Municipal Inc and the Sleepless, Inc.) 🏅
+
 
