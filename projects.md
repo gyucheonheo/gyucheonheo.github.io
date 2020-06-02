@@ -4,7 +4,7 @@ title: projects
 subtitle: Projects
 ---
 **Whitening Dark Skin to Enhance Face Recognition**; Biometrics Research Project [[ppt]]()
-* Used face_reocgnition(https://pypi.org/project/face-recognition/) python library
+* Used [face_reocgnition](https://pypi.org/project/face-recognition/) python library
 * Compared two templates using ROC curve
 
 **Share a Ride**; Java backend for a web application [[github]](https://github.com/gyucheonheo/sar)
