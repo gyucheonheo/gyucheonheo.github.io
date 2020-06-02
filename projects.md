@@ -3,7 +3,7 @@ layout: page
 title: projects
 subtitle: Projects
 ---
-**Whitening Dark Skin to Enhance Face Recognition**; Biometrics Research Project [[ppt]]()
+**Whitening Dark Skin to Enhance Face Recognition System**; Biometrics Research Project [[ppt]]()
 * Used [face_reocgnition](https://pypi.org/project/face-recognition/) python library
 * Compared two templates using ROC curve
 
