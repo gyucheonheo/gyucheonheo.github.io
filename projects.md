@@ -8,6 +8,9 @@ subtitle: Projects
 * Compared two templates using ROC curve
 
 **Share a Ride**; Java backend for a web application [[github]](https://github.com/gyucheonheo/sar)
+* Designed and Implemented RESTful APIs, Test Scenarios, Unit Tests
+* Used Github Actions for CI/CD purpose
+* Sticked to TDD, BDD cycles
 
 **The Parking Admission System at Park**; Java(Jersey RESTful Web Service) backend for a web application [[github]](https://github.com/gyucheonheo/parkpay-docker-compose), [[detail]]()
 * Won the Best Project with respect to clean code, SOLID principles, and OOP🏅
