@@ -3,6 +3,8 @@ layout: page
 title: projects
 subtitle: Projects
 ---
+**Whitening Dark Skin to Enhance Face Recognition**; Biometrics Research Project
+
 **Share a Ride**; Java backend for a web application [[github]](https://github.com/gyucheonheo/sar)
 
 **The Parking Admission System at Park**; Java(Jersey RESTful Web Service) backend for a web application [[github]](https://github.com/gyucheonheo/parkpay-docker-compose), [[detail]]()
