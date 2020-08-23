@@ -34,6 +34,7 @@ Junit, Jmeter, Selenium, Postman, Newman, Cucumber
 
 2020 Fall
 : **Software Development Intern**; Ascension, St Louis, MO (Remote)
+
 2020 Summer
 : **Software Engineer Intern**; Ascension, St Louis, MO
 
