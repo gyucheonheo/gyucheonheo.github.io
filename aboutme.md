@@ -32,10 +32,10 @@ Junit, Jmeter, Selenium, Postman, Newman, Cucumber
 
 ### 💼 Experience
 
+2020 Fall
+: **Software Development Intern**; Ascension, St Louis, MO (Remote)
 2020 Summer
-: **Software Engineer Intern**; Ascension Technology, St Louis, MO
-* Developed a html test report library and injected report automation into Jenkins pipeline
-* Designed/automated End-to-End scenarios using Selenium in addition to intergration with MySQL for Database verification
+: **Software Engineer Intern**; Ascension, St Louis, MO
 
 2019 Summer
 : **[Graduate Research Assistant](https://www.halek.co/authors/gyucheon-heo/)**; HExSA Lab, Chicago, IL
