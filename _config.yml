@@ -36,7 +36,7 @@ cover-img: "/assets/img/profile.png"
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "gheo1@hawk.iit.edu"
+  email: "gyucheon.heo@gmail.com"
 #  facebook: deanattali
   github: gyucheonheo
 #  rss: true
@@ -76,13 +76,13 @@ excerpt_length: 50
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#FF2400"
-navbar-text-col: "#FFFFFF"
+navbar-col: "#FFFFFF"
+navbar-text-col: "#000000"
 navbar-border-col: "#EAEAEA"
 page-col: "#FFFFFF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#FF2400"
+footer-col: "#FFFFFF"
 footer-text-col: "#FFFFFF"
 footer-link-col: "#404040"
 
