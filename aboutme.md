@@ -6,20 +6,6 @@ subtitle: Software Engineer
 
 My name is Gyucheon Heo. I go by **Jake**. Lately, my interest is fully laid in functional programming
 
-### 💪 Skills
-
-#### </> Programming Languages
-Scala, C, Java(8 to later), Python3, Javascript, Haskell, SQL, Bash Script
-
-#### 🛠 DevOps Tools
-Jenkins, Docker, git, Apache Maven, Github actions, libvirt, QEMU
-
-#### 📚 Databases
-MySQL, PostgreSQL, MongoDB, Apache Cassandra, Apache CouchDB, Redis
-
-#### 🧪 Test 
-Junit, Jmeter, Selenium, Postman, Newman, Cucumber
-
 ### 🎓 Education
 
 2019-2021
