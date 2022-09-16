@@ -62,3 +62,4 @@ List<String> newList = lst.stream()
                             }))
                           .collect(Collectors.toUnmodifiableList());
 ```
+Although the number of fixed items increase, this code will be able to handle it in scale without any changes except for `fixedItems`. 
