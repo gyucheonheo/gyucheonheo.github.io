@@ -60,6 +60,6 @@ List<String> newList = lst.stream()
                             int i = fixedItems.getOrDefault(s, -1);
                             return i >= 0 ? i : fixedItems.size();
                             }))
-                          .collect(Collectors.toUnmodifiableList());
+                          .toList();
 ```
 Although the number of fixed items increase, this code will be able to handle it in scale without any changes except for `fixedItems`. 
