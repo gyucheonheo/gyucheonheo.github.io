@@ -6,4 +6,4 @@ tags: [security, zero-day, authentication, token]
 comments: false
 ---
 
-It's not pleasant to share news that I have encountered my very first zero day. However, I should mark and have to write it down.
+Sharing the news of encountering my first zero-day isn't a pleasant task. Nonehtelss, it's essential to document and make note of my experience and solutions.
