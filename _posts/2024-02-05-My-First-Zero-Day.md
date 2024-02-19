@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Very First Zero Day
+title: 🚨 My Very First Zero Day 🚨
 subtitle:
 tags: [security, zero-day, authentication, token]
 comments: false
