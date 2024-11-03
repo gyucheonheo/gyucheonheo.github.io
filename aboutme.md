@@ -4,7 +4,7 @@ title: About me
 subtitle: Software Engineer 
 ---
 
-My name is Gyucheon Heo. I go by **Jake**. Lately, my interest is fully laid in functional programming
+Authentication/Authorization specialist. Interested in digital security, identity management, authentication/authorization and functional programming.
 
 
 
