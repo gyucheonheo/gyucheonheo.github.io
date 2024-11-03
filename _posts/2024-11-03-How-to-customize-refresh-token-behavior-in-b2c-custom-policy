@@ -1,0 +1,75 @@
+---
+layout: post
+title: Let's change the behavior of refresh token in Azure AD B2C
+subtitle:
+tags: [b2c, custompolicy, oauth2, authorization]
+comments: true
+---
+
+We will explore how to change the behavior of refresh tokens in Azure AD B2C to better suit your application's needs and enhance security.
+
+
+## Why do we need a new behavior?
+
+I noticed that a newly generated access token didn't include claims that the previous old token had. It was surprising that original claims are not preserved! Therefore, a new behavior needs to call an endpoint to add the claim! Additionally, you are able to refresh tokens as long as you have it and refresh it regularly before it expires. However, one of security concerns that I have and I want to have is to disallow to refresh tokens if an account associated with the given userId is disabled in Azure portal.
+
+## Well, what should I do then?
+
+1. Open your relying party custom policy that you want to change your behavior
+2. Go to `<RelyingParty>` element and add the following `<Endpoint>` element
+
+```
+<RelyingParty>
+  <DefaultUserJourney ReferenceId="RedwingSignUpOrSign"/>
+    <Endpoints>
+      ...
+      ...
+      <Endpoint Id="Token" UserJourneyReferenceId="My-RefreshToken-UserJourney" />
+  </Endpoints>
+...
+...
+</RelyingParty>
+```
+3. Then, what is `My-RefreshToken-UserJourney`? This is a user journey how you want to change your refresh token behavior! Let's see it
+```
+    <UserJourney Id="My-RefreshToken-UserJourney">
+      <PreserveOriginalAssertion>false</PreserveOriginalAssertion>
+      <OrchestrationSteps>
+        <OrchestrationStep Order="1" Type="ClaimsExchange">
+          <ClaimsExchanges>
+            <ClaimsExchange Id="Extract-Claims-From-RefreshToken" TechnicalProfileReferenceId="Extract-Claims-From-RefreshToken" />
+          </ClaimsExchanges>
+        </OrchestrationStep>
+        <OrchestrationStep Order="2" Type="ClaimsExchange">
+          <ClaimsExchanges>
+            <ClaimsExchange Id="User-Read-Using-ObjectId" TechnicalProfileReferenceId="AAD-UserReadUsingObjectId" />
+          </ClaimsExchanges>
+        </OrchestrationStep>
+        <OrchestrationStep Order="3" Type="ClaimsExchange">
+          <ClaimsExchanges>
+            <ClaimsExchange Id="Assert-AccountEnabled-OnRefreshToken" TechnicalProfileReferenceId="Assert-AccountEnabled-On-RefreshToken" />
+          </ClaimsExchanges>
+        </OrchestrationStep>
+        <OrchestrationStep Order="4" Type="ClaimsExchange">
+          <ClaimsExchanges>
+            <ClaimsExchange Id="Additional technical profile for necessary claims" TechnicalProfileReferenceId="..." />
+          </ClaimsExchanges>
+        </OrchestrationStep>
+        <OrchestrationStep Order="5" Type="SendClaims" CpimIssuerTechnicalProfileReferenceId="JwtIssuer" />
+      </OrchestrationSteps>
+    </UserJourney>
+```
+
+4. Okay. It looks like that it's time to go deep into some technical profiles. Let's go to `ExtractClaimsFromRefreshToken`
+```
+<TechnicalProfile Id="Extract-Claims-From-RefreshToken">
+  <DisplayName>...</DisplayName>
+  <Protocol Name="None" />
+  <OutputClaims>
+    <OutputClaim ClaimTypeReferenceId="objectId" />
+    <!-- Optional -->
+    <OutputClaim ClaimTypeReferenceId="clientId" DefaultValue="{OIDC:ClientId}" AlwaysUseDefaultValue="true" />
+  </OutputClaims>
+</TechnicalProfile>
+```
+This technical profile will put `objectId` which is `b2cUserId` 
